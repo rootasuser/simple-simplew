@@ -1,0 +1,16 @@
+{
+    "name": "simple/simplew",
+    "description": "A simple PHP framework installer.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Simple\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/create-simple"
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
