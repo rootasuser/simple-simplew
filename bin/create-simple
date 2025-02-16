@@ -1,0 +1,3 @@
+mkdir -p bin
+touch bin/create-simple
+chmod +x bin/create-simple  # Make it executable
